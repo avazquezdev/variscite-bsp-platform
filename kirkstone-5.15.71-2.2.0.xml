@@ -3,14 +3,15 @@
 
   <default sync-j="4" revision="kirkstone"/>
 
-  <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
-  <remote fetch="https://github.com/Freescale"     name="freescale"/>
-  <remote fetch="https://git.openembedded.org"     name="oe"/>
-  <remote fetch="https://github.com/meta-qt5"      name="QT5"/>
-  <remote fetch="https://github.com/sbabic"        name="sbabic"/>
-  <remote fetch="https://github.com/OSSystems"     name="OSSystems"/>
-  <remote fetch="https://github.com/kraj"          name="clang"/>
-  <remote fetch="https://github.com/varigit"       name="variscite"/>
+  <remote fetch="https://git.yoctoproject.org/git"      name="yocto"/>
+  <remote fetch="https://github.com/Freescale"          name="freescale"/>
+  <remote fetch="https://git.openembedded.org"          name="oe"/>
+  <remote fetch="https://github.com/meta-qt5"           name="QT5"/>
+  <remote fetch="https://github.com/sbabic"             name="sbabic"/>
+  <remote fetch="https://github.com/OSSystems"          name="OSSystems"/>
+  <remote fetch="https://github.com/Igalia/meta-webkit" name="Igalia"/>
+  <remote fetch="https://github.com/kraj"               name="clang"/>
+  <remote fetch="https://github.com/varigit"            name="variscite"/>
 
   <project remote="yocto"     revision="6505459809380ddcf152a09343e4dc55038de332" upstream="kirkstone"   name="poky"                    path="sources/poky"/>
   <project remote="yocto"     revision="d9f77788e1902a7d999958575a955e701c1c1b61" upstream="kirkstone"   name="meta-freescale"          path="sources/meta-freescale"/>
@@ -23,6 +24,7 @@
   </project>
 
   <project remote="OSSystems" revision="e232c2e21b96dc092d9af8bea4b3a528e7a46dd6"                        name="meta-browser"            path="sources/meta-browser"/>
+  <project remote="Igalia"    revision="4a49b63860100ad0b7d9050448dc4023364bfbfd" upstream="kirkstone"   name="meta-webkit"             path="sources/meta-webkit"/>
   <project remote="clang"     revision="c728c3f9168c8a4ed05163a51dd48ca1ad8ac21d" upstream="kirkstone"   name="meta-clang"              path="sources/meta-clang"/>
   <project remote="freescale" revision="f6fa0fd8783ce69d07feaad0b7ca6759b5a4d5d6" upstream="kirkstone"   name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
   <project remote="freescale" revision="d5bbb487b2816dfc74984a78b67f7361ce404253" upstream="kirkstone"   name="meta-freescale-distro"   path="sources/meta-freescale-distro"/>
