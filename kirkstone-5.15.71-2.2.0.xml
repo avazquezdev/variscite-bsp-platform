@@ -9,7 +9,7 @@
   <remote fetch="https://github.com/meta-qt5"           name="QT5"/>
   <remote fetch="https://github.com/sbabic"             name="sbabic"/>
   <remote fetch="https://github.com/OSSystems"          name="OSSystems"/>
-  <remote fetch="https://github.com/Igalia/meta-webkit" name="Igalia"/>
+  <remote fetch="https://github.com/Igalia"             name="Igalia"/>
   <remote fetch="https://github.com/kraj"               name="clang"/>
   <remote fetch="https://github.com/varigit"            name="variscite"/>
 
